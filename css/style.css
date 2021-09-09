@@ -134,3 +134,16 @@ h1, h2 {
     column-gap: 2rem;
     grid-template-columns: 2fr repeat(2, 1fr);
 }
+
+/* 8 - Grid gap */
+
+.grid-8 {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 20rem);
+}
+
+.grid-8 .box {
+    margin: 0;
+}
