@@ -105,3 +105,13 @@ h1, h2 {
     background-color: cornflowerblue;
 }
 
+/* 5 -Grig shorthand */
+
+.grid-5 {
+    display: grid;
+    gap: 2rem;
+    /* grid-template-columns: repeat(3, 30rem);
+    grid-template-rows: repeat(2, 30rem); */
+    grid: repeat(2, 30rem) / repeat(3, 30rem);
+}
+
