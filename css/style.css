@@ -224,3 +224,12 @@ h1, h2 {
     grid-area: footer;
 }
 
+/* 11 */
+
+.grid-11 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 30rem;
+    /* align-items: center; */
+    place-content: center;
+}
